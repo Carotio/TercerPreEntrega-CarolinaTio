@@ -1,0 +1,536 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.proyectos {
+  padding: 48px;
+  display: flex;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 32px;
+  row-gap: 116px;
+  grid-template-areas: "imagen imagen texto" "texto2 imagen2 imagen2";
+  object-fit: cover; }
+  .proyectos .primer-item {
+    grid-area: imagen; }
+  .proyectos .segundo-item {
+    grid-area: texto; }
+  .proyectos .tercer-item {
+    grid-area: texto2; }
+  .proyectos .cuarto-item {
+    grid-area: imagen2; }
+
+main .proyectos div a, main .quienesSomos div a {
+  text-decoration: none;
+  color: #eee;
+  background-color: #1a1b1f;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-style: medium;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 12px 25px 12px 25px; }
+  main .proyectos div a:hover:hover, main .quienesSomos div a:hover:hover {
+    color: #ffea00; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  height: 96px; }
+  header a {
+    text-decoration: none; }
+    header a h1 {
+      text-decoration: none;
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      text-align: center;
+      color: #1a1b1f;
+      font-size: 30px;
+      text-transform: uppercase; }
+      header a h1 span {
+        font-family: 'Montserrat', sans-serif;
+        font-style: medium;
+        font-weight: 700;
+        text-align: center; }
+  header nav ul {
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-style: medium;
+    font-weight: 500;
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    display: inline-flex; }
+    header nav ul li {
+      margin: 24px; }
+      header nav ul li a {
+        text-decoration: none;
+        color: #68696b; }
+        header nav ul li a:hover {
+          color: #ffea00; }
+
+main .proyectos div a, main .quienesSomos div a {
+  text-decoration: none;
+  color: #eee;
+  background-color: #1a1b1f;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-style: medium;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 12px 25px 12px 25px; }
+  main .proyectos div a:hover:hover, main .quienesSomos div a:hover:hover {
+    color: #ffea00; }
+
+main .hero {
+  background-color: #051426;
+  background-image: url(../img/fondo.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: calc(100vh - 114px);
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  main .hero p {
+    color: #898a8b;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 96px; }
+    main .hero p span {
+      color: #e1d335; }
+
+main .filosofia {
+  border-bottom: #898a8b13 solid 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 180px 160px; }
+  main .filosofia h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: medium;
+    font-weight: 500;
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #68696b; }
+  main .filosofia p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    font-size: 36px;
+    line-height: 50px;
+    color: #1a1b1f; }
+
+main .proyectos div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+main .proyectos div h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-style: medium;
+  font-weight: 500;
+  text-align: left;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #68696b; }
+
+main .proyectos div h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  text-align: left;
+  font-size: 36px;
+  color: #1a1b1f; }
+
+main .proyectos div p {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  text-align: left;
+  font-size: 16px;
+  color: #68696b;
+  margin: 24px 0; }
+
+main .concepto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: #898a8b13 solid 1px;
+  padding: 120px 160px 80px 160px; }
+  main .concepto div h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: medium;
+    font-weight: 500;
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #68696b; }
+  main .concepto div p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    font-size: 36px;
+    line-height: 50px;
+    color: #1a1b1f; }
+    main .concepto div p span {
+      color: #ffea00;
+      font-style: italic; }
+
+main .servicios {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 80px 64px 120px 64px; }
+  main .servicios div h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: medium;
+    font-weight: 500;
+    text-align: center;
+    font-size: 24px;
+    color: #1a1b1f; }
+    main .servicios div h4:hover {
+      color: #ffea00; }
+  main .servicios div ul li {
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    font-size: 16px;
+    color: #68696b;
+    padding: 24px 0;
+    transition: 1seg; }
+    main .servicios div ul li:hover {
+      transform: scale(1.1); }
+
+main .quienesSomos {
+  background-color: #898a8b13;
+  background-position: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 120px 160px; }
+  main .quienesSomos div {
+    padding: 32px 8px; }
+    main .quienesSomos div h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-style: medium;
+      font-weight: 500;
+      text-align: center;
+      font-size: 36px;
+      color: #1a1b1f;
+      padding: 16px; }
+    main .quienesSomos div p {
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      text-align: center;
+      font-size: 20px;
+      line-height: 34px;
+      color: #68696b; }
+
+main .proyectos div a, main .quienesSomos div a {
+  text-decoration: none;
+  color: #eee;
+  background-color: #1a1b1f;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-style: medium;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 12px 25px 12px 25px; }
+  main .proyectos div a:hover:hover, main .quienesSomos div a:hover:hover {
+    color: #ffea00; }
+
+.grid-contenedor {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 32px;
+  grid-template-areas: "ecologico conductual gestion" "texto texto texto" "intervencion emocional experiencias"; }
+  .grid-contenedor div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column; }
+    .grid-contenedor div h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-style: medium;
+      font-weight: 500;
+      text-align: center;
+      font-size: 12px;
+      text-transform: uppercase;
+      color: #898a8b; }
+      .grid-contenedor div h2:hover {
+        color: #ffea00; }
+    .grid-contenedor div img {
+      padding: 24px;
+      transition: 1seg; }
+      .grid-contenedor div img:hover {
+        transform: scale(1.1); }
+    .grid-contenedor div p {
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      text-align: center;
+      font-size: 16px;
+      line-height: 22px;
+      color: #68696b; }
+      .grid-contenedor div p span {
+        font-size: 20px;
+        line-height: 34px;
+        color: #68696b;
+        margin: auto; }
+  .grid-contenedor .primer-espacio {
+    grid-area: ecologico;
+    padding: 80px 40px; }
+  .grid-contenedor .segundo-espacio {
+    grid-area: conductual;
+    padding: 80px 40px; }
+  .grid-contenedor .tercer-espacio {
+    grid-area: gestion;
+    padding: 80px 40px; }
+  .grid-contenedor .cuarto-espacio {
+    grid-area: texto;
+    background-color: #ffea00;
+    height: 350px; }
+  .grid-contenedor .quinto-espacio {
+    grid-area: intervencion;
+    padding: 80px 40px; }
+  .grid-contenedor .sexto-espacio {
+    grid-area: emocional;
+    padding: 80px 40px; }
+  .grid-contenedor .septimo-espacio {
+    grid-area: experiencias;
+    padding: 80px 40px; }
+
+main .proyectos div a, main .quienesSomos div a {
+  text-decoration: none;
+  color: #eee;
+  background-color: #1a1b1f;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-style: medium;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 12px 25px 12px 25px; }
+  main .proyectos div a:hover:hover, main .quienesSomos div a:hover:hover {
+    color: #ffea00; }
+
+main .contacto {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 80px 0;
+  height: auto;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  font-size: 16px; }
+  main .contacto div:nth-child(5) {
+    margin: 16px 0; }
+  main .contacto div div textarea {
+    background-color: #eee; }
+  main .contacto div div h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: medium;
+    font-weight: 500;
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #68696b; }
+  main .contacto div div p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+    color: #1a1b1f; }
+  main .contacto div div .contacto div iframe {
+    width: 100%;
+    height: 240px; }
+
+main .proyectos div a, main .quienesSomos div a {
+  text-decoration: none;
+  color: #eee;
+  background-color: #1a1b1f;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-style: medium;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 12px 25px 12px 25px; }
+  main .proyectos div a:hover:hover, main .quienesSomos div a:hover:hover {
+    color: #ffea00; }
+
+main .concepto div h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-style: medium;
+  font-weight: 500;
+  text-align: center;
+  font-size: 36px;
+  color: #1a1b1f;
+  padding: 16px 0; }
+
+main .filosofia div p {
+  padding: 35px 0 100px 0; }
+  main .filosofia div p span {
+    color: #ffea00; }
+
+main .servicios div img {
+  transition: 1seg; }
+  main .servicios div img:hover {
+    transform: scale(1.1); }
+
+main .proyectos div a, main .quienesSomos div a {
+  text-decoration: none;
+  color: #eee;
+  background-color: #1a1b1f;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-style: medium;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 12px 25px 12px 25px; }
+  main .proyectos div a:hover:hover, main .quienesSomos div a:hover:hover {
+    color: #ffea00; }
+
+footer {
+  background-color: #1a1b1f;
+  background-position: center;
+  width: 100%;
+  height: 155px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  footer h5 {
+    color: #eee;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 8px; }
+  footer div {
+    text-align: center; }
+
+main .proyectos div a, main .quienesSomos div a {
+  text-decoration: none;
+  color: #eee;
+  background-color: #1a1b1f;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-style: medium;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 12px 25px 12px 25px; }
+  main .proyectos div a:hover:hover, main .quienesSomos div a:hover:hover {
+    color: #ffea00; }
+
+main .proyectos div a, main .quienesSomos div a {
+  text-decoration: none;
+  color: #eee;
+  background-color: #1a1b1f;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-style: medium;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 12px 25px 12px 25px; }
+  main .proyectos div a:hover:hover, main .quienesSomos div a:hover:hover {
+    color: #ffea00; }
+
+@media screen and (max-width: 1000px) {
+  .servicios div {
+    padding: 24px; } }
+
+@media screen and (max-width: 830px) {
+  .proyectos {
+    grid-template-columns: 1fr;
+    grid-template-areas: "imagen" "texto" "imagen2" "texto2"; }
+  header {
+    flex-direction: column;
+    height: 100%; }
+  header nav ul {
+    padding: 0; }
+  .contacto {
+    flex-direction: column;
+    padding: 48px 0;
+    text-align: center; }
+  .contacto div h3 {
+    margin-top: 24px; }
+  .grid-contenedor {
+    grid-template-columns: 1fr;
+    grid-template-areas: "ecologico" "conductual" "gestion" "texto" "intervencion" "emocional" "experiencias"; } }
+
+@media screen and (max-width: 760px) {
+  .servicios {
+    flex-direction: column; }
+  .filosofia {
+    padding: 180px 80px; }
+  .concepto {
+    padding: 120px 80px; }
+  .quienesSomos {
+    padding: 180px 80px; } }
+
+@media screen and (max-width: 570px) {
+  header nav ul {
+    flex-wrap: wrap;
+    justify-content: center; }
+  .hero {
+    text-align: center;
+    padding: 0 32px; }
+  .proyectos {
+    grid-template-rows: 100px 350px 100px 350px; }
+  .proyectos div p {
+    font-size: 15px; }
+  .filosofia p {
+    font-size: 28px;
+    line-height: 42px; }
+  .concepto {
+    padding: 140px 80px; }
+  .concepto div p {
+    font-size: 28px;
+    line-height: 42px; }
+  .quienesSomos div p {
+    font-size: 20px;
+    line-height: 30px; }
+  .contacto div iframe {
+    width: 250px;
+    height: 200px; } }
+
+@media screen and (max-width: 400px) {
+  header nav ul {
+    flex-direction: column;
+    text-align: center; }
+  .filosofia p {
+    font-size: 24px;
+    line-height: 36px; }
+  .concepto div p {
+    font-size: 24px;
+    line-height: 36px; }
+  .quienesSomos div p {
+    font-size: 16px;
+    line-height: 26px; } }

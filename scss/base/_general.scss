@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.proyectos {
+    padding: 48px;
+    display: flex;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 32px;
+    row-gap: 116px;
+    grid-template-areas:
+        "imagen imagen texto"
+        "texto2 imagen2 imagen2"
+    ;  
+    object-fit: cover;
+    .primer-item {
+        grid-area: imagen;
+    }
+    .segundo-item {
+        grid-area: texto;
+    }
+    .tercer-item {
+        grid-area: texto2;
+    }
+    .cuarto-item {
+        grid-area: imagen2;
+    }    
+}

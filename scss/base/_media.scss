@@ -1,0 +1,116 @@
+@import "../base/variable";
+
+@media screen and (max-width:1000px) {
+    .servicios div{
+        padding: 24px;
+    }
+}
+
+@media screen and (max-width:830px) {
+    .proyectos {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "imagen"
+            "texto"
+            "imagen2"
+            "texto2"
+        ;
+    }
+    header {
+        flex-direction: column;
+        height: 100%;
+    }
+    header nav ul{
+        padding: 0;
+    }
+    .contacto {
+        flex-direction: column;
+        padding: 48px 0;
+        text-align: center;
+    }
+    .contacto div h3{
+        margin-top: 24px;
+    }
+    .grid-contenedor {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "ecologico"
+            "conductual"
+            "gestion"
+            "texto"
+            "intervencion"
+            "emocional"
+            "experiencias"
+        ;
+    }
+}
+
+@media screen and (max-width:760px) {
+    .servicios{
+        flex-direction: column;
+    }
+    .filosofia{
+        padding: 180px 80px;
+    }
+    .concepto{
+        padding: 120px 80px;
+    }
+    .quienesSomos{
+        padding: 180px 80px;
+    }
+}
+
+@media screen and (max-width:570px) {
+        header nav ul{
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .hero{
+            text-align: center;
+            padding: 0 32px;
+        }
+        .proyectos {
+            grid-template-rows: 100px 350px 100px 350px;
+        }
+        .proyectos div p{
+            font-size: 15px;
+        }
+        .filosofia p{
+            font-size: 28px;
+            line-height: 42px
+        }
+        .concepto {
+            padding: 140px 80px;
+        }
+        .concepto div p{
+            font-size: 28px;
+            line-height: 42px
+        }
+        .quienesSomos div p{
+            font-size: 20px;
+            line-height: 30px
+        }
+        .contacto div iframe {
+            width: 250px;
+            height: 200px;
+        }
+}
+
+@media screen and (max-width:400px) {
+    header nav ul{
+        flex-direction: column;
+        text-align: center;
+    }
+    .filosofia p{
+        font-size: 24px;
+        line-height: 36px
+    }
+    .concepto div p{
+        font-size: 24px;
+        line-height: 36px
+    }
+    .quienesSomos div p{
+        font-size: 16px;
+        line-height: 26px
+    }
+}

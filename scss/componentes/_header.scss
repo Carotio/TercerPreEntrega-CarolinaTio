@@ -1,0 +1,39 @@
+@import "../base/variable";
+
+header {
+    @include flex (flex, space-between, center);
+    padding: 0 40px;
+    height: 96px;
+    a {
+        text-decoration: none;
+        h1 {
+            text-decoration: none;
+            @include font ('montserrat' sans-serif, normal, 300, center);
+            color: nth($colores, 6);
+            font-size: nth($font-size, 6);
+            text-transform: uppercase;
+            span{
+                @include font ('montserrat' sans-serif, medium, 700, center)
+            }
+        }
+    }
+    nav {
+        ul {
+        list-style: none;
+        @include font ('montserrat' sans-serif, medium, 500, center);
+        font-size: nth($font-size, 1);
+        text-transform: uppercase;
+        display:inline-flex;
+            li {
+                margin: 24px;
+                a {
+                    text-decoration: none;
+                    color: nth($colores, 1);
+                    &:hover {
+                        color: nth($colores, 4);
+                    }
+                }
+            }
+        }
+    }
+}
